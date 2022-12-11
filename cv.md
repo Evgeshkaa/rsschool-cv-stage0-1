@@ -39,5 +39,5 @@ Trainers:
 * Figma/Photoshop
 * Bootstrap
 
-##English
+## English
 8. My English level - B1. (But I have not practice)
