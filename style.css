@@ -68,7 +68,7 @@
     list-style: none;
   }
 
-  .c1 {
+  .column-left {
     display: flex;
     justify-content: flex-start;
     align-items: center;
