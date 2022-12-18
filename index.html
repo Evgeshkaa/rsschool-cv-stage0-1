@@ -5,59 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evgenia Gorbacheva</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul>
-                <li class="li">
-                  <a href="#contacts" class="nav-item">Contacts</a>
-                </li>
-                <li class="li">
-                  <a href="#about_me" class="nav-item">About me</a>
-                </li>
-                <li class="li">
-                    <a href="#experience" class="nav-item">My experience</a>
-                  </li>
-              </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="li">
+                        <a href="#contacts" class="nav-item">Contacts</a>
+                    </li>
+                    <li class="li">
+                        <a href="#summary" class="nav-item">About me</a>
+                     </li>
+                    <li class="li">
+                        <a href="#experience" class="nav-item">My experience</a>
+                    </li>
+                </ul>
+             </nav>
+        </div>
     </header>
     <main>
-        <h1 class="h1">Evgenia Gorbacheva</h1>
-        <div> 
-            <p class="p">Frontend-development (beginner)</p>
-            <img src="img/IMG_20220715_203312.jpg" alt="avatar" id="avatar">
-        </div>
-        <div class="about">
-            <h2 class="h2">My contact Info</h2>
-            <div class="contacts">
-                <ul>
-                    <li>
-                      <img src="img/mail.svg" alt="Email Icon" width="30" height="30">
-                      <p>gorbacheva_evgesha@mail.ru</p>
-                    </li>
-                    <li>
-                      <img src="img/telegram.svg" alt="Telegram Icon" width="30" height="30">
-                      <p>Evgenushkaa</p>
-                    </li>
-                    <li>
-                      <img src="img/gmail.svg" alt="Gmail Icon" width="30" height="30">
-                      <p>gorbacheva.evg@gmail.com</p>
-                    </li>
-                    <li>
-                      <img src="img/github.svg" alt="GitHub Icon" width="30" height="30">
-                      <a href="https://github.com/Evgeshkaa">Evgeshkaa</a>
-                    </li>
-                    <li>
-                      <img src="img/discord.svg" alt="Discord Icon" width="30" height="30">
-                      <p> Evgenia Gorbacheva </p>
-                    </li>
-                  </ul>
+        <div class="container"> 
+            <div class="avatar">
+                <img src="img/IMG_20220715_203312.jpg" alt="avatar" width="307" height="410">
+                <div class="title">
+                    <h1 class="h1">Evgenia Gorbacheva</h1>
+                    <p class="p">Frontend-development (beginner)</p>
                 </div>
-            <h2 class="h2">About me</h2>
-            <h2 class="h2">My experience</h2>
+            </div>
+        <div class="about">
+            <div class="c1">
+                <h2 class="h2" id="contacts">My contacts</h2> 
+                <div class="contacts c2">
+                    <ul class="ul">
+                        <li class="li">
+                        <img src="img/mail.svg" alt="Email Icon" width="30" height="30">
+                        <p>gorbacheva_evgesha@mail.ru</p>
+                        </li>
+                        <li class="li">
+                        <img src="img/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                        <p>Evgenushkaa</p>
+                        </li>
+                        <li>
+                        <img src="img/gmail.svg" alt="Gmail Icon" width="30" height="30">
+                        <p>gorbacheva.evg@gmail.com</p>
+                        </li>
+                        <li class="li">
+                        <img src="img/github.svg" alt="GitHub Icon" width="30" height="30">
+                        <a href="https://github.com/Evgeshkaa">Evgeshkaa</a>
+                        </li>
+                        <li class="li">
+                        <img src="img/discord.svg" alt="Discord Icon" width="30" height="30">
+                        <p> Evgenia Gorbacheva </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="c1">
+                <h2 class="h2" id="summary">About me</h2>
+                <p class="c2">I work engineer in construction company, but it got boring for me. I am interested in learning programming, 
+            so I would like to become a front-end developer, 
+            because I like to know a new things. I am purposeful, sociable and funny. I try to find a way out in any situation.</p>
+            </div>
+            <div class="c1">
+                <h2 class="h2" id="experience">My experience</h2>
+                <p class="c2">
+                    <h3> Code example </h3>
+                        <pre> 
+                            <code>
+                            function sum(a, b) {
+                                return a + b;
+                                }
+        
+                                let result = sum(1, 2);
+                                alert( result );
+                            </code>
+                        </pre>
+                </p>
+            </div>
+            
+                
         </div>
-       
+    </div>
     </main>
     <footer>
 
