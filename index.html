@@ -9,148 +9,145 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="li">
-                        <a href="#contacts" class="nav-item">Contacts</a>
-                    </li>
-                    <li class="li">
-                        <a href="#summary" class="nav-item">About me</a>
-                     </li>
-                    <li class="li">
-                        <a href="#experience" class="nav-item">My experience</a>
-                    </li>
-                </ul>
-             </nav>
-        </div>
-    </header>
-    <main>
-        <div class="container"> 
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-item">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-item">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-item">My experience</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
         <section class="profile">
             <div class="avatar">
                 <img src="img/IMG_20220715_203312.jpg" alt="avatar" width="307" height="410">
                 <div class="title">
-                    <h1 class="h1">Evgenia Gorbacheva</h1>
-                    <p class="p">Frontend-development (beginner)</p>
+                    <h1>Evgenia Gorbacheva</h1>
+                    <p>Frontend-development (beginner)</p>
                 </div>
             </div>
         </section>
         <section class="contacts">
-       
+
             <div class="column-left">
-                <h2 class="h2" id="contacts">My contacts</h2> 
-                
-                    <ul class="ul">
-                        <li class="li">
+                <h2 id="contacts">My contacts</h2>
+
+                <ul>
+                    <li>
                         <img src="img/mail.svg" alt="Email Icon" width="30" height="30">
                         <p>gorbacheva_evgesha@mail.ru</p>
-                        </li>
-                        <li class="li">
+                    </li>
+                    <li>
                         <img src="img/telegram.svg" alt="Telegram Icon" width="30" height="30">
                         <p>Evgenushkaa</p>
-                        </li>
-                        <li>
+                    </li>
+                    <li>
                         <img src="img/gmail.svg" alt="Gmail Icon" width="30" height="30">
                         <p>gorbacheva.evg@gmail.com</p>
-                        </li>
-                        <li class="li">
+                    </li>
+                    <li>
                         <img src="img/github.svg" alt="GitHub Icon" width="30" height="30">
                         <a href="https://github.com/Evgeshkaa">Evgeshkaa</a>
-                        </li>
-                        <li class="li">
+                    </li>
+                    <li>
                         <img src="img/discord.svg" alt="Discord Icon" width="30" height="30">
-                        <p> Evgenia Gorbacheva </p>
-                        </li>
-                    </ul>
-                
+                        <p>Evgenia Gorbacheva</p>
+                    </li>
+                </ul>
+
             </div>
         </section>
-                <section class="summary">
-                    <div class="column-left">
-                        <h2 class="h2" id="summary">About me</h2>
-                        <p class="c2">I work engineer in construction company, but it got boring for me. I am interested in learning programming, 
-                    so I would like to become a front-end developer, 
-                    because I like to know a new things. I am purposeful, sociable and funny. I try to find a way out in any situation.</p>
-                    </div>
-                </section>
-            <section class="experience">
-               
-                <h2 class="h2" id="experience">My experience</h2>
-                <p class="c2">
-                    <h3> Skills </h3>
-                    <ul class="ul">
-                        <li class="li">
-                        <p>Courses on stepik.org (HTML, CSS, JS)</p>
-                        </li>
-                        <li>
-                        <p>Trainers on htmlacademy.ru (HTML, CSS, JS)</p>
-                        </li>
-                        <li class="li">
-                           <p> JavaScript <a href="https://learn.javascript.ru/"> learn.javascript.ru</a></p>
-                        </li>
-                        <li class="li">
-                        <p>Free Marathons (HTML, CSS, JS, Angular)</p>
-                        </li>
-                    </ul>
-                    <h3> Code example </h3>
-                        <pre> 
-                            <code>
-                                function testDateTime(a, b) {
-                                    n = Date.parse (a);
-                                    m = Date.parse (b);
-                                    s = (m > n) ? m : n;
-                                    d = new Date(s);
-                                    e = d.getDay();
-                                    return ['Воскресенье', 'Понедельник', 'Вторник','Среда','Четверг', 'Пятница', 'Суббота']
-                                    [e];
-                                }
-                            </code>
-                        </pre>
-                    <h3>Education</h3>   
-                    <p>I finished at the Belarussian State University of Transport. My major is civil engineer.</p>  
-                    <h4>Courses:</h4>
-                    <ul class="ul">
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <h4>Trainers:</h4>
-                    <ul class="ul">
-                        <li> Tilda</li>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript </li>
-                        <li>Figma/Photoshop</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                    <h4>My project</h4>
-                   <p> Моё тестовое задание<a href="https://github.com/Evgeshkaa/spur-it-test/tree/my"> sput-it</a> </p> 
-                   <p> Мой первый проект с Angular <a href="https://github.com/Evgeshkaa/cars-app">  Cars </a></p> 
-                   <p> Проект на Tilda <a href="http://kosmetologgomel.tilda.ws"> Tilda </a></p> 
-                   <h3>Language</h3>
-                   <ul>
-                    <li> English - B1 (Intermediate)</li>
-                        <li>Russin - Proficiency</li>
-                        <li>Belarussian - Advanced </li>
-                   </ul>
-                       
-            </section>
-    </div>
-    </main>
-    <footer>
-        <div class="container footer">
+        <section class="summary">
+            <div class="column-left">
+                <h2 id="summary">About me</h2>
+                <p>I work engineer in construction company, but it got boring for me. I am interested in
+                    learning programming,
+                    so I would like to become a front-end developer,
+                    because I like to know a new things. I am purposeful, sociable and funny. I try to find a way out in
+                    any situation.</p>
+            </div>
+        </section>
+        <section class="experience">
+
+            <h2 id="experience">My experience</h2>
+            <p class="column-right">
+            <h3>Skills</h3>
             <ul>
-           <li><a class="my-github" href="https://github.com/Evgeshkaa">
-            <img class="github-icon" src="img/github.svg" alt="Github Icon" width="26" height="26">
-            GitHub
-          </a></li> 
-              <li><p>Evgenia Gorbacheva &#169; 2022</p></li>
-              <li><a href="https://rs.school/js/">
-                <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
-              </a></li>
+                <li>Tilda</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Figma/Photoshop</li>
+                <li>Bootstrap</li>
             </ul>
-        </div>
-    </footer>
-    
+            <h3>Code example</h3>
+            <pre>
+                <code>
+    function testDateTime(a, b) {
+        n = Date.parse (a);
+        m = Date.parse (b);
+        s = (m > n) ? m : n;
+        d = new Date(s);
+        e = d.getDay();
+        return ['Воскресенье', 'Понедельник', 'Вторник','Среда','Четверг', 'Пятница', 'Суббота'][e];
+    }
+                </code>
+            </pre>
+            <h3>Education</h3>
+            <p>I finished at the Belarussian State University of Transport. My major is civil engineer.</p>
+            <h4>Courses:</h4>
+            <ul>
+                <li>
+                    <p>Courses on stepik.org (HTML, CSS, JS)</p>
+                </li>
+                <li>
+                    <p>Trainers on htmlacademy.ru (HTML, CSS, JS)</p>
+                </li>
+                <li>
+                    <p> JavaScript <a href="https://learn.javascript.ru/"> learn.javascript.ru</a></p>
+                </li>
+                <li>
+                    <p>Free Marathons (HTML, CSS, JS, Angular)</p>
+                </li>
+            </ul>
+            <h4>My project</h4>
+            <p> My test task <a href="https://github.com/Evgeshkaa/spur-it-test/tree/my">sput-it</a></p>
+            <p> My first project with Angular <a href="https://github.com/Evgeshkaa/cars-app"> Cars </a></p>
+            <p> My project on Tilda <a href="http://kosmetologgomel.tilda.ws"> Tilda </a></p>
+            <h3>Language</h3>
+            <ul>
+                <li>English - B1 (Intermediate)</li>
+                <li>Russian - Native</li>
+                <li>Belarussian - Advanced</li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="container footer">
+        <ul class="footer-list">
+            <li class="footer-item"><a class="my-github" href="https://github.com/Evgeshkaa">
+                <img class="github-icon" src="img/github.svg" alt="Github Icon" width="26" height="26">
+                GitHub
+            </a></li>
+            <li class="footer-item"><p>Evgenia Gorbacheva &#169; 2022</p></li>
+            <li class="footer-item">
+                <a href="https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
 </body>
 </html>
