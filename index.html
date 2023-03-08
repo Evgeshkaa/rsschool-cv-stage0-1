@@ -94,7 +94,7 @@
     function testDateTime(a, b) {
         n = Date.parse (a);
         m = Date.parse (b);
-        s = (m > n) ? m : n;
+        s = (m &gt; n) ? m : n;
         d = new Date(s);
         e = d.getDay();
         return ['Воскресенье', 'Понедельник', 'Вторник','Среда','Четверг', 'Пятница', 'Суббота'][e];
