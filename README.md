@@ -1,3 +1,3 @@
-https://Evgeshkaa.github.io/rsschool-cv/cv
+https://Evgeshkaa.github.io/rsschool-cv-stage0-1/cv
 
-https://Evgeshkaa.github.io/rsschool-cv
+https://Evgeshkaa.github.io/rsschool-cv-stage0-1
